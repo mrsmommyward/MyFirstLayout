@@ -1,39 +1,59 @@
 <!DOCTYPE html>
 <html>
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">    
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+        
 <head>
     <title>My First Layout</title>
 </head>
 
-<header class='header'>
-        <p class='intro'>Welcome, I'm</p>
-        <h1 class='heading'>Nichole Ward!</h1>
-</header>
-
 <body>
-    <div class="introduction">
-      <h1>Introduction</h1>          
-        <p> I am 36, a mother of 4 brilliant kids (sometimes too smart!) and I am ecstatic to explore the creative and empathic field of UX/UI. </p>
-    </div>
 
-    <section class="location">
-        <h1>Where I'm From</h1>
-          <p>I'm originally from Toronto, Ontario. </p>
-      </section>
+ <!-- Left sidebar -->
+ <aside>
+  <div id="sidebar-top">
+      <img id="sidebar-flag" src="images/nikki.jpg" alt="A picture of Me" height="300px" />
+      <h3>Nichole Ward</h3>
+  </div>
 
-      <section class="questions">
-        <h1>More About Me</h1>
-        <h2>What are your favorite hobbies?</h2>
-          <p>My favorite hobby is building things on the internet like ecommerce sites and email marketing campaigns.</p>
-        <h2>What's your dream job?</h2>
-          <p>My dream job is similar to my current job except I would like to be building software instead of buildings.</p>
-        <h2>Where do you live?</h2>
-          <p>I live on a rural acreage, but I'm close to Ottawa and Montreal.</p>
-        <h2>Why do you want to be a web developer?</h2>
-          <p>Because programming is awesome and programming for the internet is even more awesome.</p>
+  <div class="location">
+    <h2>Where I'm From:</h2>
+      <p>I live just north of Atlanta now, but have lived all over the United States.</p>
+  </div>
+
+  <div id="social media">
+      <h2>Connect with me on social media:</h2>
+      <ul>
+          <li><a href="www.linkedin.com/in/nichole-ward-335aa016" target="_blank">LinkedIn</a></li>
+          <li><a href="www.behance.net/pl8" target="_blank">Behance</a></li>
+          <li><a href="https://dribbble.com/mrsmommyward" target="_blank">Dribbble</a></li>
+
+          
+      </ul>
+  </div>
+</aside>
+
+  <main>
+    <section class="introduction">
+      <div class="flex-container">
+      <h1>Who Am I and How Did I Get Here?</h1>          
+        <p>Hello friends!</p>
+        <p> My name is Nichole Ward. I am an enterepenuer at heart and a mother of 4 brilliant kids (sometimes too smart!). I am ecstatic to explore the creative and empathic field of UX/UI. I just discovered that it was a field of it's own a few months ago, and here I am, mere weeks away from completing this intense bootcamp. I'm opening up to the community beyond the classroom and can't wait for the possiblities and <i>change</i> I will get to bring to this world with my new skills!</p>
+      </div> 
+    </section>
+
+      <section class="facts">
+        <div class="flex-container">
+          <h1>Interesting Facts or Skills</h1>
+          <ol>
+           <li>1) I have identical twin girls (complete fluke... very unexpected!)</li>
+           <li>2) I am a certified postpartum doula and love helping families settle into their new lives after birth.</li>
+           <li>3) I taught myself to sew on a whim in 2015, and in under 6 months I was getting commissioned for pieces. Since then have used my skills on multiple touring Broadways shows and for film and tv productions.</li>
+          </ol>
+        </div>
       </section>
-      
+    </main>
     </body>
       
 </html>
